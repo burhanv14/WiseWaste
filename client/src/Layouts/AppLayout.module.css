@@ -1,0 +1,23 @@
+.appDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.navDiv{
+    width: rem(70px);
+    height: 100dvh;
+}
+
+.routeDiv{
+    width: calc(100% - 70px);
+    min-height: 100lvh;
+}
+
+@media (max-width: $mantine-breakpoint-sm) {
+    .navDiv {
+      width: rem(60px);
+    }
+    .routeDiv{
+        width: calc(100% - 60px);
+    }
+  }

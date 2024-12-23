@@ -1,0 +1,23 @@
+{
+  "appId": "com.wisewaste.app",
+  "appName": "Wise Waste",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist",
+  "cordova": {},
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": [
+        "badge",
+        "sound",
+        "alert"
+      ]
+    },
+    "CapacitorCookies": {
+      "enabled": true
+    }
+  }
+}
